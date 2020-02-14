@@ -1,0 +1,12 @@
+# folders with large files or symlinks
+example_data
+output
+templates
+warps
+warps_org
+
+# nifti files in notebooks folder
+notebooks/*nii.gz
+
+# temporary warps in notebooks folder
+notebooks/*GenericAffine.mat

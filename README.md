@@ -1,7 +1,8 @@
 **This is work-in-progress. Last tests are running now. The documentation will be updated when it's publication ready.**
+
 <!--
 # RheMAP
-This repository contains code for non-linear registration between five of the most commonly used rhesus macaque brain templates (D99, INIA19, MNI macaque, NMT, Yerkes19) and example code on how to use the resulting warp files to remap data between different standard spaces. Non-linear registration warps were generated using ANTs (http://stnava.github.io/ANTs/) and can directly be downloaded from Zenodo (10.5281/zenodo.3668510).
+This repository contains code for non-linear registration between some of the most commonly used rhesus macaque brain templates (D99, INIA19, MNI macaque, NMT, Yerkes19) and example code on how to use the resulting warp files to remap data between different standard spaces. Non-linear registration warps were generated using ANTs (http://stnava.github.io/ANTs/) and can directly be downloaded from Zenodo (10.5281/zenodo.3668510).
 
 **Authors**:     
 [Nikoloz Sirmpilatze](https://github.com/niksirbi) (German Primate Center)     
@@ -18,7 +19,7 @@ We include the following templates and used [ANTs](http://stnava.github.io/ANTs/
 
 | Template | Species | Resolution (mm<sup>3</sup>) | With atlas | Volume format | Surface format | Links |
 | --- | --- | --- | --- | --- | --- | --- |
-| NMT | _M. mulatta_ | 0.25 | Saleem Logothetis (D99-SL) | NIFTI | GIFTI | [reference](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5660669/) [download](https://github.com/jms290/NMT) |
+| NMT v1.2/v1.3 | _M. mulatta_ | 0.25 | Saleem Logothetis (D99-SL) | NIFTI | GIFTI | [reference](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5660669/) [download](https://github.com/jms290/NMT) |
 | D99 | _M. mulatta_ | 0.25 | D99-SL | NIFTI | GIFTI | [reference](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6075609/) [download](https://afni.nimh.nih.gov/Macaque) |
 | INIA19 | _M. mulatta_ | 0.50 | Neuromaps | NIFTI | N/A | [reference](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3515865/) [download](https://www.nitrc.org/projects/inia19/https://www.nitrc.org/projects/inia19/) |
 | MNI macaque | _M. fascicularis_ & _M. mulatta_ | 0.25 | Paxinos | MINC & NIFTI | N/A | [reference](https://www.ncbi.nlm.nih.gov/pubmed/21256229) [download](http://www.bic.mni.mcgill.ca/ServicesAtlases/Macaque) |

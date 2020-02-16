@@ -27,3 +27,9 @@ We include the following templates and used [ANTs](http://stnava.github.io/ANTs/
 [Jupyter](https://jupyter.org/) notebooks are provided here as guides to explain [how macaque template warps were computed](macaque_template_warps.ipynb) and [how the warps can be used](how_to_apply_template_warps.ipynb) to transform data (parcellations, statistical maps etc.) between various template spaces. 
 
 **NB!** With the provided code, the set of warp files can easily be expanded to include additional template brains.
+
+# RheMAP results / Quality control
+These images (generated in the [macaque_template_warps notebook](macaque_template_warps.ipynb)) demonstrate the differences between the original templates, the linear alignment, and the final non-linear registrations between templates.    
+* [Original templates](templates.md)     
+* [Linearly aligned](linear_registration.md)
+* [Non-linear registration (composite warps)](nonlinear_registration.md)

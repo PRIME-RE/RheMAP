@@ -1,6 +1,6 @@
 # Original templates    
 
-&larr; [back to RheMAP](README.md)     
+&larr; [back to **RheMAP**](README.md)     
 
 ----
 ![D99](images/templates/D99.png)    
@@ -11,4 +11,4 @@
 ![Yerkes](images/templates/YRK.png)     
 ---
 
-[Linear alignment](linear_alignment.md) &rarr;
+[**Linear alignment**](linear_alignment.md) &rarr;

@@ -3,8 +3,8 @@ example_data
 output
 templates
 warps
+warps_org
 warped_templates
-warped_org
 
 # nifti files in notebooks folder
 notebooks/*nii.gz

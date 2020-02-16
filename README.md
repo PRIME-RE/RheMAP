@@ -25,3 +25,5 @@ We include the following templates and used [ANTs](http://stnava.github.io/ANTs/
 | Yerkes19 | _M. mulatta_ | 0.50 | F99 | NIFTI & MGZ | GIFTI & MGZ | [reference1](https://www.pnas.org/content/115/22/E5183) [reference2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3500860/) [download1](https://balsa.wustl.edu/reference/show/976nz) [download2](https://github.com/Washington-University/NHPPipelines) |
 
 Jupyter notebooks are provided here as guides to explain [how macaque template warps were computed](macaque_template_warps.ipynb) and [how the warps can be used](how_to_apply_template_warps.ipynb) to transform data (parcellations, statistical maps etc.) between various template spaces. 
+
+**NB!** With the provided code, the set of warp files can easily be expanded to include additional template brains.

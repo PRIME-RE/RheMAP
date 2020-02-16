@@ -11,4 +11,4 @@
 ![Yerkes](images/templates/YRK.png)     
 ---
 
-[Linear alignment](README.md) &rarr;
+[Linear alignment](linear_alignment.md) &rarr;

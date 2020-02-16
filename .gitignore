@@ -1,10 +1,10 @@
 # folders with large files or symlinks
-example_data
-output
-templates
-warps
-warps_org
-warped_templates
+/example_data
+/output
+/templates
+/warps
+/warps_org
+/warped_templates
 
 # nifti files in notebooks folder
 notebooks/*nii.gz

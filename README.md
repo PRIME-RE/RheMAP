@@ -31,5 +31,5 @@ We include the following templates and used [ANTs](http://stnava.github.io/ANTs/
 # RheMAP results / Quality control
 These images (generated in the [macaque_template_warps notebook](macaque_template_warps.ipynb)) demonstrate the differences between the original templates, the linear alignment, and the final non-linear registrations between templates.    
 * [Original templates](templates.md)     
-* [Linearly aligned](linear_registration.md)
+* [Linearly aligned](linear_alignment.md)
 * [Non-linear registration (composite warps)](nonlinear_registration.md)

@@ -1,7 +1,7 @@
 ![image](images/ReMAP_logo.png)
 
 # RheMAP
-This repository contains code for non-linear registration between some of the most commonly used rhesus macaque brain templates (D99, INIA19, MNI macaque, NMT, Yerkes19) and example code on how to use the resulting warp files to remap data between different standard spaces. Non-linear registration warps were generated using [ANTs](http://stnava.github.io/ANTs/) and can directly be downloaded from Zenodo ([DOI:10.5281/zenodo.3668510](https://doi.org/10.5281/zenodo.3668510)).
+The RheMAP project provides access to a set of pre-calculated non-linear registrations between some of the most commonly used rhesus macaque brain templates (D99, INIA19, MNI macaque, NMT, Yerkes19). This repository contains the code used to calculate the registration warps and example code that demonstrates how to use the resulting warp files to remap data between different template spaces. Non-linear registration warps were generated using [ANTs](http://stnava.github.io/ANTs/) and can directly be downloaded from Zenodo ([DOI:10.5281/zenodo.3668510](https://doi.org/10.5281/zenodo.3668510)).
 
 **Authors**:     
 [Nikoloz Sirmpilatze](https://github.com/niksirbi) (German Primate Center)     
@@ -25,4 +25,3 @@ We include the following templates and used [ANTs](http://stnava.github.io/ANTs/
 | Yerkes19 | _M. mulatta_ | 0.50 | F99 | NIFTI & MGZ | GIFTI & MGZ | [reference1](https://www.pnas.org/content/115/22/E5183) [reference2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3500860/) [download1](https://balsa.wustl.edu/reference/show/976nz) [download2](https://github.com/Washington-University/NHPPipelines) |
 
 Jupyter notebooks are provided here as guides to explain [how macaque template warps were computed](macaque_template_warps.ipynb) and [how the warps can be used](how_to_apply_template_warps.ipynb) to transform data (parcellations, statistical maps etc.) between various template spaces. 
--->

@@ -4,6 +4,7 @@ output
 templates
 warps
 warped_templates
+warped_org
 
 # nifti files in notebooks folder
 notebooks/*nii.gz

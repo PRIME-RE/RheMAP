@@ -7,6 +7,9 @@
 /warped_templates
 /images/original
 
+# checkpoints
+notebooks/.ipynb_checkpoints
+
 # nifti files in notebooks folder
 notebooks/*nii.gz
 

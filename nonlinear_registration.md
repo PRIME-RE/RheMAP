@@ -3,7 +3,7 @@
 &larr; [back to **Linear alignment**](linear_alignment.md)     
 
 ----
-<!--
+
 ![NMTv1.2_on_D99](images/nonlinear_reg/Nonlin_NMTv1.2_on_D99.png)
 ![NMTv1.2_on_INIA](images/nonlinear_reg/Nonlin_NMTv1.2_on_INIA.png)
 ![NMTv1.2_on_MNI](images/nonlinear_reg/Nonlin_NMTv1.2_on_MNI.png)
@@ -19,7 +19,7 @@
 ![INIA_on_MNI](images/nonlinear_reg/Nonlin_INIA_on_MNI.png)
 ![INIA_on_YRK](images/nonlinear_reg/Nonlin_INIA_on_YRK.png)
 ![MNI_on_YRK](images/nonlinear_reg/Nonlin_MNI_on_YRK.png)
--->    
+   
 ---
 
 [check **All Warp-pairs**](all_warp_pairs.md) &rarr;    

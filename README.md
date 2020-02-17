@@ -7,7 +7,7 @@ The RheMAP project provides access to a set of pre-calculated non-linear registr
 [Nikoloz Sirmpilatze](https://github.com/niksirbi) (German Primate Center)     
 [Chris Klink](https://github.com/pcklink) (Netherlands Institute for Neuroscience)
 
-**Citation**:
+**Citation**:     
 Sirmpilatze, Nikoloz and Klink, P. Christiaan (2020). RheMAP: Non-linear warps between common rhesus macaque brain templates (Version 1)[Data set]. Zenodo. https://doi.org/10.5281/zenodo.3668510  
 
 

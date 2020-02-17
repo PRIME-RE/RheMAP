@@ -5,6 +5,7 @@
 /warps
 /warps_org
 /warped_templates
+/images/original
 
 # nifti files in notebooks folder
 notebooks/*nii.gz

@@ -33,7 +33,8 @@ We include the following templates and used [ANTs](http://stnava.github.io/ANTs/
 **NB!** With the provided code, the set of warp files can easily be expanded to include additional template brains.
 
 # RheMAP results / Quality control
-These images (generated in the [template_warps notebook](macaque_template_warps.ipynb)) demonstrate the differences between the original templates, the linear alignment, and the final non-linear registrations between templates.    
-* [Original templates](templates.md)     
+These images (generated in the [template_warps notebook](macaque_template_warps.ipynb)) demonstrate the differences between the original templates, the linear alignment, and the final non-linear registrations between templates ([go directly to end result](all_warp_pairs.md)).    
+* [Original templates](templates.md)     [Final registrations between all template pairs](all_warp_pairs.md)
 * [Linearly aligned](linear_alignment.md)
 * [Non-linear registration (composite warps)](nonlinear_registration.md)
+* [Final registrations between all template pairs](all_warp_pairs.md)

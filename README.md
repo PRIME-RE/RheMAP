@@ -38,3 +38,8 @@ These images (generated in the [template_warps notebook](macaque_template_warps.
 * [Linearly aligned](linear_alignment.md)
 * [Non-linear registration (composite warps)](nonlinear_registration.md)
 * [Final registrations between all template pairs](all_warp_pairs.md)
+
+# Average template    
+Now that all templates can be warped to all standard spaces, we can also average them and create a 'MetaTemplate'. This isn't particularly useful, but it does show that we have good cross-template registration.    
+
+![Metatemaplate](images/metatemplate/MetaTemplate_in_NMTv1.3.png) 

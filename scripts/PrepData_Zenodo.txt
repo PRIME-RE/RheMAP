@@ -1,9 +1,0 @@
-1) you paste both scripts into the directory which contains the structure you want to flatten
---> careful: all files in this directory will be added to the tree.json file and added to the `flat` directory which will be created – so only have files there you are happy to share :)  
-2) run source flatten.sh
-3) duplicate flat directory
-4) cd flat --> run source unflatten.sh
-5) rm flatten.sh, unflatten.sh, and tree.json, rename this directory to all_the_data, and zip all_the_data using zip -r -X all_the_data.zip all_the_data
-6) rename the duplicate flat directory back to flat
-7) upload all the content of flat using script (because zenodo interface only works for files of a certain minimum files sizes and it failed for me for meta data json files. but if it works for you for all files you can use interface)
-8) upload zip directory (interface drag and drop)

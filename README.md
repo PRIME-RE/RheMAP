@@ -28,7 +28,11 @@ We include the following templates and used [ANTs](http://stnava.github.io/ANTs/
 | MNI macaque | _M. fascicularis_ & _M. mulatta_ | 0.25 | Paxinos | MINC & NIFTI | N/A | [reference](https://www.ncbi.nlm.nih.gov/pubmed/21256229) [download](http://www.bic.mni.mcgill.ca/ServicesAtlases/Macaque) |
 | Yerkes19 | _M. mulatta_ | 0.50 | F99 | NIFTI & MGZ | GIFTI & MGZ | [reference1](https://www.pnas.org/content/115/22/E5183) [reference2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3500860/) [download1](https://balsa.wustl.edu/reference/show/976nz) [download2](https://github.com/Washington-University/NHPPipelines) |
 
-[Jupyter](https://jupyter.org/) notebooks are provided here as guides to explain [how template warps were computed](macaque_template_warps.ipynb) and [how the warps can be used](how_to_apply_template_warps.ipynb) to transform data (parcellations, statistical maps etc.) between various template spaces. 
+[Jupyter](https://jupyter.org/) notebooks are provided here as guides to explain:    
+1. [How template warps were computed](macaque_template_warps.ipynb)    
+2. [How the warps can be used](how_to_apply_template_warps.ipynb) to transform data (parcellations, statistical maps etc.) between various template spaces. 
+
+We do not provide copies of the actual templates (licenses often forbids redistribution), but instead suggest you follow the links above and get them at the source. We do offer the warp files and warped templates that will be produced by this workflow. They can be downloaded from Zenodo (DOI:10.5281/zenodo.3668510). For optimal compatibility, you could [set up your template folder structure likte this](template_dir_tree.md). If you really want to, you can [reconstruct the original templates](reconstruct_templates.md) with these warped templates and warp files as well.
 
 **NB!** With the provided code, the set of warp files can easily be expanded to include additional template brains.
 

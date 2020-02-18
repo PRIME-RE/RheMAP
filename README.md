@@ -32,7 +32,7 @@ We include the following templates and used [ANTs](http://stnava.github.io/ANTs/
 1. [How template warps were computed](macaque_template_warps.ipynb)    
 2. [How the warps can be used](how_to_apply_template_warps.ipynb) to transform data (parcellations, statistical maps etc.) between template spaces. 
 
-We do not provide copies of the actual templates (licenses often forbids redistribution), but instead suggest you follow the links above and get them at the source. We do offer the warp files and warped templates that will be produced by this workflow. They can be downloaded from Zenodo (DOI:10.5281/zenodo.3668510). For optimal compatibility, you could [set up your template folder structure likte this](template_dir_tree.md). If you really want to, you can [reconstruct the original templates](reconstruct_templates.md) with these warped templates and warp files as well.
+We do not provide copies of the actual templates (licenses often forbids redistribution), but instead suggest you follow the links above and get them at the source. We do offer the warp files and warped templates that will be produced by this workflow. They can be downloaded from Zenodo (DOI:10.5281/zenodo.3668510). For optimal compatibility, you could [set up your template folder structure like this](template_dir_tree.md). If you really want to, you can [reconstruct the original templates](reconstruct_templates.md) with these warped templates and warp files as well.
 
 **NB!** With the provided code, the set of warp files can easily be expanded to include additional template brains.
 

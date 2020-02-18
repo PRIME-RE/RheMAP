@@ -1,7 +1,9 @@
 ![image](images/RheMAP_logo.png)
 
 # RheMAP
-The RheMAP project provides access to a set of pre-calculated non-linear registrations between some of the most commonly used rhesus macaque brain templates (D99, INIA19, MNI macaque, NMT, Yerkes19). This repository contains the code used to calculate the registration warps and example code that demonstrates how to use the resulting warp files to remap data between different template spaces. Non-linear registration warps were generated using [ANTs](http://stnava.github.io/ANTs/) and can directly be downloaded from Zenodo ([DOI:10.5281/zenodo.3668510](https://doi.org/10.5281/zenodo.3668510)).
+The RheMAP project provides access to a set of pre-calculated non-linear registrations between some of the most commonly used rhesus macaque brain templates (D99, INIA19, MNI macaque, NMT, Yerkes19). This repository contains the code used to calculate the registration warps and example code that demonstrates how to use the resulting warp files to remap data between different template spaces. Non-linear registration warps were generated using [ANTs](http://stnava.github.io/ANTs/) and can directly be downloaded from Zenodo: 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3668510.svg)](https://doi.org/10.5281/zenodo.3668510)
+
 
 **Authors**:     
 [Nikoloz Sirmpilatze](https://github.com/niksirbi) (German Primate Center)     
@@ -9,7 +11,6 @@ The RheMAP project provides access to a set of pre-calculated non-linear registr
 
 **Citation**:     
 Sirmpilatze, Nikoloz and Klink, P. Christiaan (2020). RheMAP: Non-linear warps between common rhesus macaque brain templates (Version 1)[Data set]. Zenodo. https://doi.org/10.5281/zenodo.3668510  
-
 
 ![image](images/RegisterTemplates.png)
 
@@ -47,3 +48,8 @@ These images (generated in the [template_warps notebook](notebooks/macaque_templ
 Now that all templates can be warped to all standard spaces, we can also average them and create a 'MetaTemplate'. This isn't particularly useful, but it does show that we have good cross-template registration.    
 
 ![Metatemaplate](images/metatemplate/MetaTemplate_in_NMTv1.3.png) 
+
+---
+
+This repository is archived in Zenodo: 
+[![Code doi](https://zenodo.org/badge/DOI/10.5281/zenodo.3673082.svg)](https://doi.org/10.5281/zenodo.3673082)

@@ -1,3 +1,6 @@
+
+<!--![](https://raw.githubusercontent.com/PRIME-RE/RheMAP/master/images/RheMAP_card.png)-->
+
 ![image](images/RheMAP_logo.png)
 
 # RheMAP

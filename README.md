@@ -37,7 +37,8 @@ We include the following templates and used [ANTs](http://stnava.github.io/ANTs/
 
 [Jupyter](https://jupyter.org/) notebooks are provided here as guides to explain:    
 1. [How template warps were computed](notebooks/macaque_template_warps.ipynb)    
-2. [How the warps can be used](notebooks/how_to_apply_template_warps.ipynb) to transform data (parcellations, statistical maps etc.) between template spaces. 
+2. [How the warps can be used](notebooks/how_to_apply_template_warps.ipynb) to transform data (parcellations, statistical maps etc.) between template spaces.     
+3. [How to warp individual subject anatomy to templates](notebooks/warp_individual_to_templates.ipynb)
 
 We do not provide copies of the actual templates (licenses often forbids redistribution), but instead suggest you follow the links above and get them at the source. We do offer the warp files and warped templates that will be produced by this workflow. They can be downloaded from Zenodo (DOI:10.5281/zenodo.3786357). For optimal compatibility, you could [set up your template folder structure like this](template_dir_tree.md). If you really want to, you can [reconstruct the original templates](reconstruct_templates.md) with these warped templates and warp files as well.
 

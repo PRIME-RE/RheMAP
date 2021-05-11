@@ -4,7 +4,7 @@
 
 ----
 
-![All warp-pairs](images/all_warp_pairs/Composite.png)    
+![All warp-pairs](images/all_warp_pairs/Montage_composite.png)    
 
 ---
 

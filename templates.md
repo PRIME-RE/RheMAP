@@ -3,7 +3,7 @@
 &larr; [back to **RheMAP**](README.md)     
 
 ----
-![Templates](images/templates/templates.png)        
+![Templates](images/templates/Montage_Template.png)        
 ---
 
 [**Linear alignment**](linear_alignment.md) &rarr;

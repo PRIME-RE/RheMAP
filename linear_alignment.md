@@ -4,7 +4,7 @@
 
 ----
 
-![All_linear](images/linear_reg/Linear.png)
+![All_linear](images/linear_reg/Montage_Linear.png)
     
 ---
 

@@ -4,7 +4,7 @@
 
 ----
 
-![All_nonlinear](images/nonlinear_reg/Nonlinear.png)
+![All_nonlinear](images/nonlinear_reg/Montage_Nonlinear.png)
    
 ---
 

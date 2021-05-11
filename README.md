@@ -54,7 +54,7 @@ These images (generated in the [template_warps notebook](notebooks/macaque_templ
 # Average template    
 Now that all templates can be warped to all standard spaces, we can also average them and create a 'MetaTemplate'. This isn't particularly useful, but it does show that we have good cross-template registration.    
 
-![Metatemaplate](images/metatemplate/MetaTemplate_in_NMTv1.3.png) 
+![Metatemaplate](images/metatemplate/MetaTemplate_in_NMTv2.0.png) 
 
 ---
 

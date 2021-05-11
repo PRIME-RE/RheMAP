@@ -5,7 +5,7 @@
 
 # RheMAP
 The RheMAP project provides access to a set of pre-calculated non-linear registrations between some of the most commonly used rhesus macaque brain templates (D99, INIA19, MNI macaque, NMT, Yerkes19). This repository contains the code used to calculate the registration warps and example code that demonstrates how to use the resulting warp files to remap data between different template spaces. Non-linear registration warps were generated using [ANTs](http://stnava.github.io/ANTs/) and can directly be downloaded from Zenodo: 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3786357.svg)](https://doi.org/10.5281/zenodo.3786357)     
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4748589.svg)](https://doi.org/10.5281/zenodo.4748589)     
 
 
 **Authors**:     
@@ -16,7 +16,7 @@ The RheMAP project provides access to a set of pre-calculated non-linear registr
 Join our channel on <a href="https://mattermost.brainhack.org/brainhack/channels/rhemap" target="_blank"><img src="http://www.mattermost.org/wp-content/uploads/2016/03/logoHorizontal.png" width=100px /></a>
 
 **Citation**:     
-Sirmpilatze, Nikoloz and Klink, P. Christiaan (2020). RheMAP: Non-linear warps between common rhesus macaque brain templates (Version 1.2)[Data set]. Zenodo. https://doi.org/10.5281/zenodo.3786357         
+Sirmpilatze, Nikoloz and Klink, P. Christiaan (2020). RheMAP: Non-linear warps between common rhesus macaque brain templates (Version 1.3)[Data set]. Zenodo. https://doi.org/10.5281/zenodo.4748589         
 
 ![image](images/RegisterTemplates.png)
 
@@ -29,7 +29,7 @@ We include the following templates and used [ANTs](http://stnava.github.io/ANTs/
 
 | Template | Species | Resolution (mm<sup>3</sup>) | With atlas | Volume format | Surface format | Links |
 | --- | --- | --- | --- | --- | --- | --- |
-| NMT v1.2/v1.3/v2.0 | _M. mulatta_ | 0.25 | Saleem Logothetis (D99-SL) | NIFTI | GIFTI | [reference](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5660669/) [download](https://github.com/jms290/NMT) |
+| NMT v1.2/v1.3/v2.0 | _M. mulatta_ | 0.25 | Saleem Logothetis (D99-SL) | NIFTI | GIFTI | [reference](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5660669/) [download](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/nonhuman/macaque_tempatl/main_toc.html) |
 | D99 | _M. mulatta_ | 0.25 | D99-SL | NIFTI | GIFTI | [reference](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6075609/) [download](https://afni.nimh.nih.gov/Macaque) |
 | INIA19 | _M. mulatta_ | 0.50 | Neuromaps | NIFTI | N/A | [reference](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3515865/) [download](https://www.nitrc.org/projects/inia19/https://www.nitrc.org/projects/inia19/) |
 | MNI macaque | _M. fascicularis_ & _M. mulatta_ | 0.25 | Paxinos | MINC & NIFTI | N/A | [reference](https://www.ncbi.nlm.nih.gov/pubmed/21256229) [download](http://www.bic.mni.mcgill.ca/ServicesAtlases/Macaque) |
@@ -40,7 +40,7 @@ We include the following templates and used [ANTs](http://stnava.github.io/ANTs/
 2. [How the warps can be used](notebooks/how_to_apply_template_warps.ipynb) to transform data (parcellations, statistical maps etc.) between template spaces.     
 3. [How to warp individual subject anatomy to templates](notebooks/warp_individual_to_templates.ipynb)
 
-We do not provide copies of the actual templates (licenses often forbids redistribution), but instead suggest you follow the links above and get them at the source. We do offer the warp files and warped templates that will be produced by this workflow. They can be downloaded from Zenodo (DOI:10.5281/zenodo.3786357). For optimal compatibility, you could [set up your template folder structure like this](template_dir_tree.md). If you really want to, you can [reconstruct the original templates](reconstruct_templates.md) with these warped templates and warp files as well.
+We do not provide copies of the actual templates (licenses often forbids redistribution), but instead suggest you follow the links above and get them at the source. We do offer the warp files and warped templates that will be produced by this workflow. They can be downloaded from Zenodo (DOI:10.5281/zenodo.4748589). For optimal compatibility, you could [set up your template folder structure like this](template_dir_tree.md). If you really want to, you can [reconstruct the original templates](reconstruct_templates.md) with these warped templates and warp files as well.
 
 **NB!** With the provided code, the set of warp files can easily be expanded to include additional template brains.
 
@@ -59,4 +59,4 @@ Now that all templates can be warped to all standard spaces, we can also average
 ---
 
 This repository is archived in Zenodo: 
-[![Code doi](https://zenodo.org/badge/DOI/10.5281/zenodo.3673082.svg)](https://doi.org/10.5281/zenodo.3673082)
+[![Code doi](https://zenodo.org/badge/DOI/10.5281/zenodo.4748589.svg)](https://doi.org/10.5281/zenodo.4748589)

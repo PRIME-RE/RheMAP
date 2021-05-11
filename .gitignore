@@ -16,3 +16,7 @@ notebooks/*nii.gz
 
 # temporary warps in notebooks folder
 notebooks/*GenericAffine.mat
+
+GIN/
+
+zenodo_v1.3/

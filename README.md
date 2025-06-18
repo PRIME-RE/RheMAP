@@ -38,7 +38,7 @@ We include the following templates and used [ANTs](http://stnava.github.io/ANTs/
 | Yerkes19 | _M. mulatta_ | 0.50 | F99 | NIFTI | GIFTI & MGZ | [reference1](https://www.pnas.org/content/115/22/E5183) [reference2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3500860/) [download1](https://balsa.wustl.edu/reference/show/976nz) [download2](https://github.com/Washington-University/NHPPipelines) |
 
 [Jupyter](https://jupyter.org/) notebooks are provided here as guides to explain:    
-1. [How template warps were computed](notebooks/macaque_template_warps.ipynb)    
+1. How template warps were computed [using ANTs](notebooks/macaque_template_warps_ANTs.ipynb) or how they can be computerd [with FireANTs](notebooks/macaque_template_warps_FireANTs.ipynb)    
 2. [How the warps can be used](notebooks/how_to_apply_template_warps.ipynb) to transform data (parcellations, statistical maps etc.) between template spaces.     
 3. [How to warp individual subject anatomy to templates](notebooks/warp_individual_to_templates.ipynb)
 
